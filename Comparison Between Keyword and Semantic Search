@@ -1,0 +1,7 @@
+## Comparison Between Keyword and Semantic Search
+
+Keyword search relies on exact word matching. If the user query does not contain the same words as the document text, the search may fail to retrieve relevant results.
+
+Semantic search represents text as vector embeddings that capture meaning and context. When a query is entered, it is converted into an embedding and compared with document embeddings stored in the database. This allows the system to retrieve documents that are semantically related even when the wording is different.
+
+For example, a query such as “software that talks to users automatically” can still retrieve a document about chatbots even though the exact word "chatbot" is not present in the query. This demonstrates the advantage of semantic search in understanding natural language queries.
