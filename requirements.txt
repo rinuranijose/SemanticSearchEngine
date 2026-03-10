@@ -1,0 +1,9 @@
+django
+djangorestframework
+psycopg2
+pgvector
+redis
+requests
+streamlit
+pandas
+ollama
